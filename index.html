@@ -18,7 +18,7 @@
                     <a href="#home">Home</a>
                 </li>
                 <li>
-                    <a href="#services">Services</a>
+                    <a href="#projects">Projects</a>
                 </li>
                 <li>
                     <a href="#about">About</a>
@@ -38,84 +38,90 @@
         <div class="container">
             <div class="hero_text">
             <h2 class="hero_title">Hi, it's me, Blake</h2>
-            <p class="hero_desc">I am a professional freelancer in St. Louis</p>
+            <p class="hero_desc">I'm a beginning web developer in St. Louis.</p>
             </div>
         </div>
     </section>
 <!--added intro/background-->
-    <header id="services" class="services">
-        <h1 class="titles">Services</h1>
+    <section id="projects" class="projects">
+        <h1 class="titles">Projects</h1>
         <div class="row">
            <div class="column">
-             <h2>Website Development</h2>
-             <p> This is first column of our grid system</p>
+             <h2>Horiseon Code Refactor</h2>
+                <div class="column-image1">
+                    <a href=" https://btsmith1212.github.io/Horiseon-Code-Refactor/"><img src=".assets/images/horiseon.jpg">
+                </div>
            </div>
            <div class="column">
-             <h2>Website Design</h2>
-             <p> This is second column of our grid system</p>
+             <h2>Project 3</h2>
+             <p> More to Come!</p>
            </div>
            <div class="column">
-             <h2>Website Deployment</h2>
-             <p> This is third column of our grid system</p>
+             <h2>Project 5</h2>
+             <p> More to Come!</p>
            </div>
         </div>
         <div class="row">
            <div class="column">
-            <h2>SEO</h2>
-            <p> This is first column of our grid system</p>
+            <h2>Project 2</h2>
+            <p> More to Come!</p>
           </div>
           <div class="column">
-            <h2>DevOps</h2>
-            <p> This is second column of our grid system</p>
+            <h2>Project 4</h2>
+            <p> More to Come!</p>
           </div>
           <div class="column">
-            <h2>QA</h2>
-            <p> This is third column of our grid system</p>
+            <h2>Project 6</h2>
+            <p> More to Come!</p>
           </div>
         </div>
-    </header>
+    </section>
 <!-- set up main cards-->
+
+    <section id="contact" class="titles">
+            <div class="contact" width="50%">
+                <h1 class="titles">Contact Me</h1>
+                <div class="row mt-4">
+                    <div class="col-lg-6">
+                        <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                            <div id="google-maps-canvas" style="height:100%; width:100%;max-width:100%;">
+                                <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=St.+Louis,+MO,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                                </iframe>
+                            </div>
+                            <a class="the-googlemap-enabler" rel="nofollow" href="https://kbj9qpmy.com/hrn" id="enable-map-data">InMotion Hosting</a>
+                            <style>#google-maps-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;position: center;}
+                            </style>
+                        </div>
+                    </div>
+                    <div class="form">
+                        <form>
+                            <input type="text" class="form-control form-control-lg" placeholder="Name">
+                            <input type="email" class="form-control mt-3" placeholder="Email">
+                            <input type="text" class="form-control mt-3" placeholder="Subject">
+                            <div class="mb-3 mt-3">
+                                <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                            </div>
+                        </form>
+                        <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                    </div>
+                </div>
+            </div>    
+    <!--added form-->
+    </section>
     <section id="about" class="titles">
-        <div class="aboutContent">
-            <h1 class="text-center">About</h1>
+        <div class="about" width="50%">
+            <h1 class="titles">About</h1>
+                <p> I am a beginning web developer based in St. Louis, Missouri. I live with my girlfriend and our two cats. I currently work full time in the automotive services field. I have experience with HTML, CSS, JS and Python.</p>
             <!--added about section-->
         </div>
     </section>
 
-    <section id="contact" class="titles">
-            <h1>Contact Me</h1>
-            <div class="row mt-4">
-                <div class="col-lg-6">
-                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
-                        <div id="google-maps-canvas" style="height:100%; width:100%;max-width:100%;">
-                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=St.+Louis,+MO,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
-                            </iframe>
-                          </div>
-                          <a class="the-googlemap-enabler" rel="nofollow" href="https://kbj9qpmy.com/hrn" id="enable-map-data">InMotion Hosting</a>
-                          <style>#google-maps-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;position: center;}
-                          </style>
-                    </div>
-                </div>
-    
-                <div class="form">
-                    <form>
-                        <input type="text" class="form-control form-control-lg" placeholder="Name">
-                        <input type="email" class="form-control mt-3" placeholder="Email">
-                        <input type="text" class="form-control mt-3" placeholder="Subject">
-                        <div class="mb-3 mt-3">
-                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
-                        </div>
-                    </form>
-                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
-                </div>
-            </div>
-    <!--added form-->
-    <footer class="footer">
+    <footer class="footer" footer id="#social media">
         <ul class="footerLogos">
-            <li><a href="https://www.facebook.com/blake.smith.9404/"><img src=".assets/images/fb-logo.png"></li>
-            <li><a href="https://www.linkedin.com/in/blakesmith1212"><img src=".assets/images/linkedin-logo.png"></li>
-          </ul>                                                                                          
-        <p>&copy; 2023 Blake Smith.</p>
+            <li><a href="https://www.facebook.com/blake.smith.9404/"><img src=".assets/images/fb-logo.jpg"></li>
+            <li><a href="https://www.linkedin.com/in/blakesmith1212"><img src=".assets/images/linkedin-logo.jpg"></li>
+        </ul>                                                                                          
+        <p>&copy; 2023 Blake Smith</p>
     </footer>
     <!--added footer-->
 </main>

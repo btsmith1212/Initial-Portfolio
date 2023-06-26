@@ -6,16 +6,18 @@ body {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #C70F2E;
-    color: #ffffff;
+    color: silver;
 }
 
 .titles {
     color: gold;
+    text-align: center;
 }
 
 .header h1{
     display: inline-block;
     font-size: 48px;
+
 }
 
 .header nav {
@@ -24,11 +26,13 @@ body {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+ 
 }
 
 
 .header nav ul {
     list-style-type: none;
+    color: silver;
 }
 
 .header nav ul li {
@@ -47,13 +51,14 @@ body {
     transform: translate(+2%, 0);
 }
 
-.services{
+.projects{
     text-align: center;
     margin: auto;
-    width: 50%;
-    border: 3px solid navy;
+    width: 100%;
+    border: 3px solid gold;
     padding: 10px;
 }
+
 .container {
 	  display: inline-block;
       width: 33%;
@@ -69,18 +74,25 @@ body {
     width: 33%;
 	grid-template-columns: 100px 150px 200px;
 	text-align: center;
-
+    
 }
 .column {
     padding: 16px;
 	height: 250px;
     width: wrap;
-	margin: 5px;
-	background-color: #cccccc;
+	margin: 50px;
+	background-color: silver;
+    vertical-align: middle;
 }
   
 .column:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: gold;
+}
+
+.column-image1{
+    background-image: url("../images/horiseon.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .hero_text {
@@ -93,17 +105,39 @@ body {
 
 
 .contact{
+    width: 50%;
+    align-items: flex-start;
+    justify-content:left;
+    float: right;
+}
 
+.about {
+    width: 50%;
+    float:left;
+    text-align: center;
+}
+
+
+div.form{
+    display: block;
+    text-align: center;
 }
 .form{
-
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
 }
+
 
 .footer {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #C70F2E;
     color: #ffffff;
+    align-items: center; 
+    text-align: center;
+    clear: both;
 } 
     
 .footerLogos{
