@@ -20,3 +20,7 @@ N/A
 Please refer to the LICENSE in the repo.
 
 ## Code Sources
+https://btsmith1212.github.io/Initial-Portfolio/
+https://github.com/btsmith1212/Initial-Portfolio.git
+
+## Screenshot
