@@ -24,3 +24,4 @@ https://btsmith1212.github.io/Initial-Portfolio/
 https://github.com/btsmith1212/Initial-Portfolio.git
 
 ## Screenshot
+<img width="942" alt="iport1" src="https://github.com/btsmith1212/Initial-Portfolio/assets/135077506/cd61242d-6a47-496e-b7ee-5de649264337">
